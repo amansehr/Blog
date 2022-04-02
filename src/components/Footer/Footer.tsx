@@ -21,47 +21,19 @@ export const Footer = () => (
         ]}
     >
         <div css={tw`flex items-center justify-center`}>
-            <AiOutlineTwitter
-                role='button'
-                aria-label='Twitter Icon'
-                css={contactIconStyles}
-                tabIndex={0}
-                onClick={() =>
-                    window.open('https://gauravthakur.in/social/twitter')
-                }
-                onKeyDown={({ key }) => {
-                    if (key === 'Enter') {
-                        window.open('https://gauravthakur.in/social/twitter');
-                    }
-                }}
-                size={50}
-            />
             <AiFillLinkedin
                 role='button'
                 aria-label='Linkedin Icon'
                 css={contactIconStyles}
                 tabIndex={0}
                 onClick={() =>
-                    window.open('https://gauravthakur.in/social/linkedin')
+                    window.open('https://www.linkedin.com/in/amansehrawat/')
                 }
                 onKeyDown={({ key }) => {
                     if (key === 'Enter') {
-                        window.open('https://gauravthakur.in/social/linkedin');
-                    }
-                }}
-                size={50}
-            />
-            <MdEmail
-                role='button'
-                aria-label='Email Icon'
-                css={contactIconStyles}
-                tabIndex={0}
-                onClick={() =>
-                    window.open('https://gauravthakur.in/social/email')
-                }
-                onKeyDown={({ key }) => {
-                    if (key === 'Enter') {
-                        window.open('https://gauravthakur.in/social/email');
+                        window.open(
+                            'https://www.linkedin.com/in/amansehrawat/'
+                        );
                     }
                 }}
                 size={50}
@@ -73,7 +45,7 @@ export const Footer = () => (
                 css={tw`dark:focus:outline-white focus:outline-black`}
                 href={Constant.portfolio}
             >
-                <strong>Gaurav Thakur</strong>
+                <strong>Aman Sehrawat</strong>
             </a>{' '}
             | Made with <span>❤</span> in India
         </p>

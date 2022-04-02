@@ -57,7 +57,7 @@ export function NavBar() {
                             ]}
                         >
                             <Logo theme={theme} height={22} width={22} />
-                            Gaurav's Blog
+                            Research Blog
                         </a>
                     </Link>
                 </h1>
@@ -69,12 +69,6 @@ export function NavBar() {
                         <li css={listStyle}>
                             <Link href={'/'} passHref>
                                 <a css={menuItemStyle}>Home</a>
-                            </Link>
-                        </li>
-
-                        <li css={listStyle}>
-                            <Link href={Constant.portfolio} passHref>
-                                <a css={menuItemStyle}>Portfolio</a>
                             </Link>
                         </li>
 

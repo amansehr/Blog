@@ -39,9 +39,9 @@ function Home({ articles }: HomeProperties) {
                 metaDescription={
                     "Hi, welcome to my personal blog. I am a college student and a JavaScript enthusiast. In this blog, I'll share my knowledge related to various tech stack."
                 }
-                metaTitle={"Gaurav's Blog"}
+                metaTitle={"Aman's Blog"}
                 ogImage={'/images/og-default.png'}
-                ogImageAlt={"Banner Image for Gaurav's Blog"}
+                ogImageAlt={"Banner Image for Aman's Blog"}
             />
             <div
                 css={[
